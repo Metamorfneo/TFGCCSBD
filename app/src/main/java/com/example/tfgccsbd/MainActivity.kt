@@ -16,7 +16,6 @@ import com.example.tfgccsbd.ui.theme.TFGCCSBDTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             TFGCCSBDTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
