@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172319575904",
+    "project_id": "tfgccsbd",
+    "storage_bucket": "tfgccsbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172319575904:android:ea2b33a4c8669747709805",
+        "android_client_info": {
+          "package_name": "com.example.tfgccsbd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB9utgCKRUR8R3Bp3fynr0Kxd9MkWVbL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
