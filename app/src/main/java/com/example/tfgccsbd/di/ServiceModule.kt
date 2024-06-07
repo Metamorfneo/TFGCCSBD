@@ -1,6 +1,7 @@
 package com.example.tfgccsbd.di
 
 import android.content.Context
+import com.example.tfgccsbd.data.remotes.MusicDatabe
 import com.google.android.exoplayer2.C
 import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
@@ -19,9 +20,13 @@ object ServiceModule {
 
     @ServiceScoped
     @Provides
+    fun provideMusicDatabase() = MusicDatabe()
+
+    @ServiceScoped
+    @Provides
     fun provideAudioAttributes() = AudioAttributes.Builder()
-        .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
-        .setUsage(AudioAttributes.USAGE_MEDIA)
+        .setContentType(C.AUDIO_CONTENT_TYPE_MUSIC)
+        .setUsage(C.USAGE_MEDIA)
         .build()
 
 
